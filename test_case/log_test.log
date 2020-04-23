@@ -1,0 +1,17 @@
+Sat, 07 Sep 2019 10:59:44 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 get-state
+Sat, 07 Sep 2019 10:59:45 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 wait-for-device
+Sat, 07 Sep 2019 10:59:45 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 shell getprop ro.build.version.sdk
+Sat, 07 Sep 2019 10:59:55 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 shell monkey -p com.kaixinyule.kaixingame -c android.intent.category.LAUNCHER 1 ; echo ---$?---
+Sat, 07 Sep 2019 11:00:11 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 forward --no-rebind tcp:14117 tcp:5001
+Sat, 07 Sep 2019 11:00:11 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 forward --no-rebind tcp:14012 tcp:5001
+Sat, 07 Sep 2019 11:00:13 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 shell dumpsys display
+Sat, 07 Sep 2019 11:00:13 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 shell dumpsys SurfaceFlinger ; echo ---$?---
+Sat, 07 Sep 2019 11:00:13 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 shell getevent -p ; echo ---$?---
+Sat, 07 Sep 2019 11:00:13 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 shell input tap 645 750 ; echo ---$?---
+Sat, 07 Sep 2019 11:00:17 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 shell input tap 1004 374 ; echo ---$?---
+Sat, 07 Sep 2019 11:00:20 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 shell input tap 683 361 ; echo ---$?---
+Sat, 07 Sep 2019 11:00:22 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 shell input tap 1004 522 ; echo ---$?---
+Sat, 07 Sep 2019 11:00:24 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 shell input tap 683 361 ; echo ---$?---
+Sat, 07 Sep 2019 11:00:26 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 shell input tap 960 727 ; echo ---$?---
+Sat, 07 Sep 2019 11:00:35 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 forward --remove tcp:14117
+Sat, 07 Sep 2019 11:00:35 adb.py[line:142] DEBUG D:\Python3.5\lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -P 5037 -s 127.0.0.1:62025 forward --remove tcp:14012
