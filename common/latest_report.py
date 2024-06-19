@@ -26,7 +26,7 @@ def send_mail(latest_report):
 	# 第三方 SMTP 服务
 	mail_host = "smtp.qq.com"  # 设置服务器
 	mail_user = "1544717589@qq.com"  # 用户名
-	mail_pass = "vocanmhcyywgjgdf"  # 口令
+	mail_pass = "xxxxxxxx"  # 口令
 
 	sender = '1544717589@qq.com'  # 发送邮箱
 	receivers = ['1544717589@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
